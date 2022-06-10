@@ -1,0 +1,33 @@
+Callback
+    Ventajas:
+        Facil de implementar, no tiene complejidad
+        Son universales
+        Corren en cualquier navegador sea bueno oviejo
+
+    Desventajas:
+        Composicion un poco tosca
+        Se anida muchos elementos, callback hell
+        Flujo poco intuitivo
+        Manejo de errores tedioso
+
+Promise
+    Ventajas:
+        Facilmente enlazables, mas intuitivo
+        Es poderoso, gran capacidad de trabajar con asincronismo
+    
+    Desventajas:
+        No maneja excepciones, un solo catch
+        Hay que retornar el tamano
+        Necesita un pollyfish para que pueda ser funcional en todos los navegadores
+
+Async/Await
+    Ventajas:
+        Se usa el tradicional try, catch
+        Mas facil de leer, mejor comprension
+        Espera a que algo suceda
+
+    Desventajas:
+        Hay que esperar que se ejecuten los llamados principales
+        Requerimos de un polyfish para transpilar el codigo
+        usando babel para llevarlo a javascript
+
